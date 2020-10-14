@@ -7,8 +7,8 @@
 
 ## 4.0.8 (08/SEP/2020)
 * Supports Brightcove Player 6.44.
-* Fixes the issue of isLive and bitrate not reported for the replay content.
 * Introduces handling of events 'contenterror' and 'aderror' which gets thrown when main content fails to load in exceptional cases as per feedback from Brightcove team.
+* Fixes the issue of isLive and bitrate not reported for the replay content.
 
 ## 4.0.7 (13/JUL/2020)
 * Fixes the under reporting of the Video Startup Failures metrics by changed the order of the event listeners: Registering all the events on 'ready' callback and ensuring all the event listeners are active during Conviva monitoring.
