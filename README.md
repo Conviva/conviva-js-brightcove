@@ -9,8 +9,8 @@ https://hostname/conviva-core-sdk.js
 https://hostname/conviva-brightcove-plugin-module.js
 ```
 ## Supported Framework Versions
-Brightcove : 6.42.5<br />
-Video.js : 7.8.3
+Brightcove : 6.44.3<br />
+Video.js : 7.9.2
 
 ## Note:
 * Refer https://community.conviva.com/ for integration guidelines.
