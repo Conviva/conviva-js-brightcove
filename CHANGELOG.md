@@ -9,7 +9,7 @@
 * Fixes intermittent non reporting of PLAYING/BUFFERING player states upon end of midroll ad playback.
 * Fixes non reporting of "has_ads_error" for the VMAP Ad failures by relying on 'ima3-log' event.
 
-## 4.0.9 (25/SEP/2020)
+## 4.0.9 (28/SEP/2020)
 * Introduces new event listener to handle 'dispose' event for stopping conviva monitoring.
 * Fixes auto detection of the isLive for Live contents. 
 
