@@ -1,6 +1,9 @@
 
 # Changelog
 
+## 4.1.1 (28/DEC/2020)
+* Supports the VHS 2 introduced by Brightcove in v6.45.4 and uses the player.tech.vhs API's over the deprecated player.tech.hls API's along with the backward compatibility for older versions.
+
 ## 4.1.0 (14/OCT/2020)
 * Introduces a major change to the conviva monitoring logic based on Brightcove and Video.js player events especially 'play', 'playing', 'ended' and 'abort'.
 * Introduces auto detection of new custom tag "has_ads_started" to signify the start of ad playback.
