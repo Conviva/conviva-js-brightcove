@@ -1,6 +1,21 @@
 
 # Changelog
 
+## 4.2.2 (27/APR/2021)
+* Supports Brightcove Player 6.51.2 version
+* Enhances the support for the application to provide accurate information for the following metadata from Brightcove Studio:
+  * duration: auto detects based on the value available in mediainfo set while uploading media or player.duration()
+  * isLive: auto detects based on the value available in custom_fields "isLive" or mediainfo set while uploading media or options "isLive" or player.duration()
+  * defaultReportingResource: auto detects based on the availability of field "defaultReportingResource" in custom_fields or options
+  * encodedFramerate: auto detects based on the availability of field "encodedFramerate" in custom_fields or options
+  * Refer to https://conviva.developerprogram.org/site/one-sensor/sensors/web_brightcove/index_one_sensor.gsp#common-tags for more details
+* Enhances bitrate reporting logic to report current playing segment bitrate instead of downloading segment for non Safari Browsers
+* Enhances the “has_ads_error” custom tag auto detection by registering for adtimeout and handling ima3-log error events in all scenarios
+* Introduces auto detection of new custom tags href pulled from window.location.href to identify the hostname of playback initiated
+* Introduces auto collection of Screen Resolution of the display (Core SDK 4.0.18 and above)
+* Introduces auto collection of Dropped Frames during playback (Core SDK 4.0.18 and above)
+* Fixes the issue of inflated Play Attempts, VSF and EBVS by modifying the logic of Conviva monitoring to start on play, playing, loadstart, error events and end on loadstart, ended, abort, ads-all-pods-completed events
+
 ## 4.1.1 (28/DEC/2020)
 * Supports the VHS 2 introduced by Brightcove in v6.45.4 and uses the player.tech.vhs API's over the deprecated player.tech.hls API's along with the backward compatibility for older versions.
 
