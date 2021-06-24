@@ -1,9 +1,6 @@
 
 # Changelog
 
-## 4.3.2 (24/JUN/2021)
-* Supported Ad Experience for Brightcove Google IMA Plugin 3.8.0 version. (Core SDK 4.2.6 and above)
-
 ## 4.2.2 (27/APR/2021)
 * Supports Brightcove Player 6.51.2 version
 * Enhances the support for the application to provide accurate information for the following metadata from Brightcove Studio:
