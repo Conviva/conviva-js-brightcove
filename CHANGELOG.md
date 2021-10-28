@@ -1,6 +1,11 @@
 
 # Changelog
 
+## 4.3.3 (28/OCT/2021)
+* Fixes the issue of the console errors when the player is disposed before the playback is started
+* Fixes the issue of Ad Session's isLive being auto collected as VOD for LIVE contents
+* Fixes the issue of missing checks for the getVideoPlaybackQuality when there is no tech or tech doesn't support it
+
 ## 4.3.2 (28/JUN/2021)
 * Supported Ad Experience for Brightcove Google IMA Plugin 3.8.0 version. (Core SDK 4.2.6 and above)
 
