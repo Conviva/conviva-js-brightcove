@@ -2,6 +2,8 @@
 # Changelog
 
 ## 4.3.3 (28/OCT/2021)
+* Supports Brightcove Player 6.66.4 version(30/SEP/2022)
+* Supports Brightcove Player 6.65.3 version(21/JUN/2022)
 * Fixes the issue of the console errors when the player is disposed before the playback is started
 * Fixes the issue of Ad Session's isLive being auto collected as VOD for LIVE contents
 * Fixes the issue of missing checks for the getVideoPlaybackQuality when there is no tech or tech doesn't support it
