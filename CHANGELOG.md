@@ -1,6 +1,9 @@
 
 # Changelog
 
+## 4.3.4 (22/DEC/2022)
+* Fixes an issue in reporting Conviva pre-defined Content metadata using "convivatags" 
+
 ## 4.3.3 (28/OCT/2021)
 * Supports Brightcove Player 6.66.4 version(30/SEP/2022)
 * Supports Brightcove Player 6.65.3 version(21/JUN/2022)
