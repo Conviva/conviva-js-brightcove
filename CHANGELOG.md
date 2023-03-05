@@ -1,7 +1,14 @@
 
 # Changelog
 
+## 4.3.6 (3/MAR/2023)
+* Supports auto collection of Average Bitrate (Core SDK 4.6.1 and above)
+
+## 4.3.5 (28/JAN/2023)
+* Fixed an issue where Ad metadata was not being reported as Conviva predefined constant.
+
 ## 4.3.4 (22/DEC/2022)
+* Supports Brightcove Player 6.66.8 version(5/JAN/2023)
 * Fixes an issue in reporting Conviva pre-defined Content metadata using "convivatags" 
 
 ## 4.3.3 (28/OCT/2021)
