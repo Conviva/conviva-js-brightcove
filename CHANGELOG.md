@@ -1,6 +1,9 @@
 
 # Changelog
 
+## 4.4.0 (6/MAR/2023)
+* Supports auto-collection of Audio, Subtitles and Closed Captions Language( Core SDK 4.7.0 and above).
+
 ## 4.3.6 (3/MAR/2023)
 * Supports auto collection of Average Bitrate (Core SDK 4.6.1 and above)
 
