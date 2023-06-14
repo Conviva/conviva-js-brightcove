@@ -1,6 +1,10 @@
 
 # Changelog
 
+## 4.5.0 (14/JUN/2023)
+* Supports Brightcove Player 7.7.0 version
+* Fixes the issue in reporting custom error events using the “trigger” API.
+ 
 ## 4.4.1 (12/APR/2023)
 * Fixes the issue of Ad Session timeout on dispose event.
 
