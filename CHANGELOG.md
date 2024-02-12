@@ -1,6 +1,9 @@
 
 # Changelog
 
+## 4.5.1 (12/FEB/2024)
+* Supports Brightcove Player 7.13.4 version
+
 ## 4.5.0 (14/JUN/2023)
 * Supports Brightcove Player 7.7.0 version
 * Fixes the issue in reporting custom error events using the “trigger” API.
