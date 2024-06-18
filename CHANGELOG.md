@@ -1,6 +1,10 @@
 
 # Changelog
 
+## 4.5.2 (18/JUN/2024)
+* Supports Brightcove Player 7.21.0 version.
+* Fixes the issue of VST is over reported after clicking on reload video when video playback fails in middle.
+
 ## 4.5.1 (12/FEB/2024)
 * Supports Brightcove Player 7.13.4 version
 

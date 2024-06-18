@@ -9,8 +9,8 @@ https://hostname/conviva-core-sdk.js
 https://hostname/conviva-brightcove-plugin-module.js
 ```
 ## Supported Framework Versions
-Brightcove : 7.13.4<br />
-Video.js : 8.6.0
+Brightcove : 7.21.0<br />
+Video.js : 8.14.1
 Google IMA3: V3
 
 ## Note:
