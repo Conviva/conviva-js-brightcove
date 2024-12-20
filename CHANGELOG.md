@@ -1,6 +1,10 @@
 
 # Changelog
 
+## 4.5.3 (20/DEC/2024)
+* Fixes an issue with metadata not being set for sessions ending in VSF.
+* Fixes an issue with ASF sessions changing assetname to "adserror"
+
 ## 4.5.2 (18/JUN/2024)
 * Supports Brightcove Player 7.21.0 version.
 * Fixes the issue of VST is over reported after clicking on reload video when video playback fails in middle.
